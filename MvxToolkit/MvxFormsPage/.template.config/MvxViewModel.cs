@@ -1,5 +1,8 @@
 ﻿using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
+using System;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace $rootnamespace$
 {

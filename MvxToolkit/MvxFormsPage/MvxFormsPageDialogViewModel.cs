@@ -12,6 +12,7 @@ namespace MvxToolkit.MvxFormsPage
         public const string MvxTabbedPageType = "MvxTabbedPage";
         public const string MvxMasterDetailPageType = "MvxMasterDetailPage";
         public const string MvxCarouselPageType = "MvxCarouselPage";
+        public const string MvxContentViewType = "MvxContentView";
 
 
         public string DisplayName { get; set; }
@@ -28,6 +29,11 @@ namespace MvxToolkit.MvxFormsPage
                 DisplayName = "Mvx Content Page",
                 ViewType = MvxPageOption.MvxContentPageType,
                 Attribute =  "[MvxContentPagePresentation(WrapInNavigationPage = true, NoHistory = false)]"
+            },
+            new MvxPageOption
+            {
+                DisplayName = "Mvx Content View",
+                ViewType = MvxPageOption.MvxContentViewType
             },
             new MvxPageOption
             {
