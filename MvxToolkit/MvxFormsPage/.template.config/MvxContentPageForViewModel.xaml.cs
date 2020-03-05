@@ -1,4 +1,5 @@
 ﻿using Arianna.Web.Mobile.MvvmCross;
+using Arianna.Mobile.Core.ViewModels;
 using MvvmCross.Forms.Presenters.Attributes;
 using Xamarin.Forms.Xaml;
 

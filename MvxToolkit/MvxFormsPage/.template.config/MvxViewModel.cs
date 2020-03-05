@@ -4,7 +4,7 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace $rootnamespace$
+namespace Arianna.Mobile.Core.ViewModels
 {
     public class $viewmodelname$ : MvxViewModel
     {
